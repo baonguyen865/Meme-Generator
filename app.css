@@ -1,0 +1,79 @@
+h1 {
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  label {
+    width: 300px;
+    display: inline-block;
+  
+  }
+  
+  input{
+    width: 100%;
+  }
+  
+  button {
+    background-color: aqua;
+    border-radius: 10px;
+    width: 60px;
+    border: none;
+  }
+  
+  #header{
+    background-color: #eee;
+  }
+  
+  .meme {
+    justify-content: center;
+    position: relative;
+  }
+  
+  .textTop {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    color: #ffff;
+    z-index: 3;
+    font-size: 3rem;
+  }
+  .textBottom {
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    color: #ffff;
+    z-index: 3;
+    font-size: 3rem;
+  }
+  
+  .meme img{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    position: relative;
+  }
+  
+  .memeContainer {
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left : 50px;
+    position: relative;
+    background-color: white;
+  }
+  .memeContainer:hover .remove{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 4;
+  }
